@@ -2,13 +2,258 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Personas & Storyboarding</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <nav>
+      <ul class="navList">
+        <li><a href="#Sketch">Sketch</a></li>
+        <li><a href="#Observations">Observations</a></li>
+        <li><a href="#Interview">Interview</a></li>
+        <li><a href="#EmpathyMaps">Empathy Maps</a></li>
+        <li><a href="#Storyboard">Storyboard</a></li>
+        <li><a href="#Insights">Insights</a></li>
+      </ul>
+    </nav>
+    <div class="title">
+      <div class="titleText">Understanding User Interactions</div>
+      <div class="titleText">with a Water Sprinkler Controller</div>
+      <img src="images/water.jpg" alt="water" class="titleImg">
+    </div>
+    <div id="Sketch" class="sketch">
+      <div class="subheading">Water Sprinkler Controller Sketch</div>
+      <div class="imgContainer">
+        <img src="images/sprinkler-sketch.jpg" alt="sketch" class="img">
+        <img src="images/sprinkler.jpg" alt="actualPic" class="img">
+      </div>
+      <p style="padding-left: 25rem; padding-right: 25rem; padding-top: 3rem;" >
+        The water sprinkler controller allows any user to set two recurring schedules to water their lawn and includes various features
+        such as timers to control water usage, three program start times to water multiple times in a single day, and a manual start button to 
+        start the sprinklers immediately. This helps users never forget to turn the sprinklers on and allows them to do so at optimal times
+        to prevent fungus from growing.
+      </p>
+    </div>
+    <div class=options>
+      <div id="Observations" class="op1">
+        <div class="obs">Observation #1:</div>
+        <ul>
+          <li>
+            User 1 tried to turn the sprinklers on by pressing the ON button. However, after nothing happened,
+            he pressed the MAN START/ADV button but still saw that nothing changed.
+          </li>
+          <li>
+            After pushing some of the other buttons, he spent around a minute reading all of the labels. 
+            He then twisted the turn dial to AUTO and was able to turn the sprinklers on by pressing MAN START/ADV again. 
+          </li>
+          <li>
+            The user's approach was systematic. He pressed each button and turned the dial to each option to monitor how the screen would change.
+          </li>
+          <li>
+            He kept twisting the turn dial between Days to Water and Program Start Time to set a schedule for the sprinklers.
+          </li>
+          <li>
+            He was unable to schedule the sprinklers to turn on for a specific day. He gave up after 11 minutes.
+          </li>
+        </ul>
+      </div>
+      <div class="op2">
+        <div class="obs">Observation #2:</div>
+        <ul>
+          <li>
+            User 2 tried to turn the sprinklers on by pressing the ON button. However, after nothing happend,
+            she pressed the A/B button.
+          </li>
+          <li>
+            She also spent around a minute reading all of the labels.
+            She tried pressing MAN START/ADV and then immediately pressing ON.
+          </li>
+          <li>
+            She pressed the icon pictures.
+          </li>
+          <li>
+            She first turned the dial to Water Time per Station and then pressed ON. After nothing happend, she turned the dial to 
+            Saturday and pressed ON. This time, the sprinklers successfully turned on.
+          </li>
+          <li>
+            She pressed the OFF button to turn the spinklers off but nothing happend. Soon after, she pressed MAN START/ADV again and saw that
+            the sprinklers changed to a different station. She continued to press it until the sprinklers turned off.
+          </li>
+          <li>
+            The user's approach was different in that she kept pressing the ON button and tried multiple ways to do so. This
+            caused her to try different button combinations and to also try holding down the ON button.
+          </li>
+          <li>
+            After 13 minutes, she was successfully able to schedule the sprinklers, however, she said that she did not understand what the difference
+            between A/B and the three program start times was.
+          </li>
+        </ul>
+      </div>
+      <div class="op3">
+        <div class="obs">Observation #3:</div>     
+        <ul>
+          <li>
+            User 3 first checked the Day Cycle, which was something that nobody else did. 
+          </li>
+          <li>
+            After checking the dial, he immediately turned the dial to AUTO and pressed MAN START/ADV and the sprinklers turned on.
+          </li>
+          <li>
+            To set the sprinklers for a schedule, he set the Program to B by pressing A/B, turned the dial to Tuesday and Saturday and pressed ON.
+          </li>
+          <li>
+            He turned the dial to 1 on Program Start Times and set the time for 7:00 AM.
+          </li>
+          <li>
+            He turned the dial to Auto, and then finished.
+          </li>
+          <li>
+            Unlike the previous users, this user commented that he has used this sprinkler system contoller for years.
+            He was able to turn the sprinklers on and set a new schedule within two minutes.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="interview">
+      <div id="Interview" class="obs">Interview Questions and Summary</div>
+      <div class="qContainer">
+        <div class="questions">Questions:</div>
+          <ol>
+            <li>
+              What do you expect the interface to allow you to do?
+            </li>
+            <li>
+              What would motivate you to use this interface?
+            </li>
+            <li>
+              Do you think this interface is intuitive? Why or why not?
+            </li>
+            <li>
+              Did you face any challenges when using the interface? If so, what?
+            </li>
+            <li>
+              On a scale of 1-10 (10 being the best and 1 being the worst), how effective would you say the interface was?
+            </li>
+          </ol>
+      </div>
+      <div class="qContainer">
+        <div class="summaryTitle">Summary:</div>
+          <p class="summary">
+            The three users had drastically different levels of familiarity with the water sprinkler system, causing each user to interact
+            with the system differently. Though each user believed that the water sprinkler controller would allow them to turn the sprinklers on
+            and off and to set a specific time to do so, their motivation for why they would use the system varied. Most notably, the first two
+            users simply said that they would use the system to water their plants. However, the third user, who was the most experienced, said
+            that his main motivation is so that he does not forget to water his lawn, to water the lawn early in the morning to give the lawn
+            enough time to absorb the water before the sun comes out, and to prevent fungus from growing.
+          </p>
+          <p class="summary">
+            Interestingly, although the first user was unsuccessful in scheduling the water system, he believed that the interface was fairly
+            intuitive because of the clear labeling and rated it a 6/10. In contrast, the second and third users were adamant that the interface was
+            the worst they had ever used, and both rated it a 1/10. All of the users agreed that the most unintuitive facet of the interface was 
+            using the turn dial, found the screen to be difficult to read, and believed that a manual would be necessary for most users.
+          </p>
+      </div>
+    </div>
+    <div id="EmpathyMaps" class="empathy">
+      <div class="obs">Empathy Maps</div>
+      <div class="imgContainer">
+        <div class="personaContainer">
+          <img src="images/Calvin.jpg" alt="calvin_persona" class="img">
+          <p class="persona_description">
+            Confident Calvin is an avid gardener and loves to spend time working outdoors to make his house look nicer. Like he has done
+            so often, he is adjusting the sprinklers for the upcoming week and has no issues doing so. Confident Calvin represents users
+            who may have once struggled to understand the interface but have learned how to use it efficently.
+          </p>
+        </div>
+        <div class="sophie">
+          <img src="images/Sophie.jpg" alt="sophie_persona" class="img">
+          <p class="persona_description">
+            Sporadic Sophie has just moved into her new house and is a first-time user of the water sprinkler controller. Since the system does not 
+            come with a manual, Sophie does not understand what the labels mean and how to schedule the sprinklers for specific days. 
+            Sporadic Sophie represents first-time users who struggle to understand how the turn dial and buttons work in tandem
+            and try to learn how to use the interface through trial and error.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="Storyboard" class="storyboard">
+      <div class="obs">Storyboard for Sporadic Sophie</div>
+      <div class="sceneRow">
+        <div>
+          <img src="images/scene1.png" alt="scene1" class="scene">
+          <p class="scene_description">
+            1. After just moving into her new house, Sporadic Sophie notices that her lawn needs to be watered.
+          </p>
+        </div>
+        <div>
+          <img src="images/scene2.png" alt="scene2" class="scene">
+          <p class="scene_description">
+            2. She decides that it is time to set up her sprinkler system, so she reads the interface and presses the ON button to test the sprinklers.
+          </p>
+        </div>
+        <div>
+          <img src="images/scene3.jpg" alt="scene3" class="scene">
+          <p class="scene_description">
+            3. After noticing that nothing happens, Sophie frantically presses other buttons at random and finds that the sprinklers turn on 
+            after she turns the dial to AUTO and presses MAN START/ADV.
+          </p>
+        </div>
+      </div>
+      <div class="sceneRow">
+        <div>
+          <img src="images/scene4.png" alt="scene4" class="scene">
+          <p class="scene_description">
+            4. Sporadic Sophie then decides that she wants the sprinklers to run on a schedule, so she tries setting the 
+            program to run on Thursdays.
+          </p>
+        </div>
+        <div>
+          <img src="images/scene5.png" alt="scene5" class="scene">
+          <p class="scene_description">
+            5. Sophie tries to set the Program Start Time but is confused with the difference between the Program Start Time and the 
+            A/B programs.
+          </p>
+        </div>
+        <div>
+          <img src="images/scene6.png" alt="scene6" class="scene">
+          <p class="scene_description">
+            6. She reads over the labels on the interface again to see if there are some details she has overlooked.
+          </p>
+        </div>
+      </div>
+      <div class="sceneRow">
+        <div>
+          <img src="images/scene7.png" alt="scene7" class="scene">
+          <p class="scene_description">
+            7. She feels frustrated and self-conscious because she struggles to understand how the different program start times and program types all work together, but 
+            turns to Confident Calvin for help after taking 15 minutes.
+          </p>
+        </div>
+        <div>
+          <img src="images/scene8.png" alt="scene8" class="scene">
+          <p class="scene_description">
+            8. After Calvin tells her that Program A and B are different schedules and that the program start times can be used to water her 
+            lawn three times in a single day, Sophie understands and sets the sprinklers to run once on Thursdays.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="Insights" class="insights">
+      <div class="obs">Insights</div>
+      <p class="insight_desc">
+        This project sought to objectively observe three users using a water sprinkler controller to uncover what contributes to a simple
+        yet effective interface. Through interviews and observations, is is apparent that an interface that uses two distinct methods of 
+        setting a user's preferences (e.g. having both buttons and a turn dial) hampers the interface's learnability. 
+      </p>
+      <p class="insight_desc">
+        Another interesting insight is that while most users agreed that the interface was well-labeled, they still struggled to understand
+        the difference between the A/B programs and the three program start times. This may have been caused by A/B being a button and 
+        the program start times being listed as an option on the turn dial. Clearer descriptions are needed to help new users who may not know
+        that some users water their lawn multiple times a day. Thus, an important takeaway is that overly complicated interfaces with too many options may overwhelm
+        and frustrate new users.
+      </p>
+    </div>
   </body>
 </html>
